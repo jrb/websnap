@@ -1,0 +1,10 @@
+websnap
+-------
+Transforms URLs to PNGs. 
+
+This is experimental, and you probably shouldn't be using this.
+
+USAGE: websnap URL PATH
+
+Known Issues:
+ * Will hang if provided URL is not a URL
