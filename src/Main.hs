@@ -3,14 +3,11 @@ module Main (main) where
 import Graphics.UI.Gtk
 import Graphics.UI.Gtk.WebKit.WebView
 import System.FilePath
-import System.Environment
-import System.Exit
+import System.Environment(getArgs)
  
 main = do
     [url, path] <- getArgs
     webSnap url path
-    
-
 
 webSnap :: String -> FilePath -> IO ()
 webSnap url output = do
