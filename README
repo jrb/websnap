@@ -6,5 +6,8 @@ This is experimental, and you probably shouldn't be using this.
 
 USAGE: websnap URL PATH
 
-Known Issues:
- * Will hang if provided URL is not a URL
+TODO:
+ * Handle non-URLs more gracefully (Currently Hangs)
+ * Add usage/help/meaningful errors
+ * Add resolution options
+ * Add tests
