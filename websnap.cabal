@@ -14,8 +14,8 @@ cabal-version:       >=1.10
 executable websnap
   main-is:             Main.hs
   build-depends:       base     ==4.*,
-                       webkit   >=0.12,
-                       gtk      >=0.12,
+                       webkit   ==0.12.*,
+                       gtk      ==0.12.*,
                        filepath
     
   hs-source-dirs:      src
